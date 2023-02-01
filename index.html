@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Image Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-- Image Part -->
+    <div class="container">
+        <div class="images">
+            <div  class="image-item image-1" id="img1" onclick="clickImage(1)" >
+                <img src="./image/image1.jpg" alt="image-1" width="300px" height="300px">
+            </div>
+
+            <div class="image-item image-2" id="img2" onclick="clickImage(2)" >
+                <img src="./image/image2.jpg" alt="image-2" width="300px" height="300px">
+            </div>
+
+            <div class="image-item image-3" id="img3" onclick="clickImage(3)">
+                <img src="./image/image3.jpg" alt="image-3" width="300px" height="300px">
+            </div>
+
+            <div class="image-item image-4" id="img4" onclick="clickImage(4)">
+                <img src="./image/image4.jpg" alt="image-4" width="300px" height="300px">
+            </div>
+        </div>
+    </div>
+
+    <!-- Form Part -->
+
+    <div class="form">
+        <form action="register" class="form-input" >
+            <h3>Registration Form</h3>
+            <div class="input-item">
+                <input type="text" placeholder="Name" class="name" required><br>
+                <input type="text" placeholder="Username" class="user-name" required><br>
+                <input type="email" placeholder="Email" class="email" required>
+            </div>
+
+            
+            <input type="submit" id="submit">
+        </form>
+    </div>
+    <div class="display"></div>
+
+    <!-- LUDO GAME -->
+
+    <div class="ludo">
+        <h2>JS LUDO</h2>
+        <div class="dice">
+            <!-- <p>Player</p> -->
+            <img src="/image/dice1.png" alt="dice image" height="200px" width="200px" id="check1" onclick="ludogame()">
+        </div>
+
+        <!-- <div class="btn">
+        <button >Click Me</button>
+       </div> -->
+
+    </div>
+    <!-- TRY AGAIN -->
+    <div class="try">Try Again !</div>
+    <!-- BAD LUCK -->
+
+    <div class="bad-luck">Bad luck !</div>
+    </div>
+
+    <!-- COUPON -->
+    <div class="final">Your Coupon Here
+    <div class="coupon">jhhAdajkt68k </div>
+    <img src="/image/congret4.png" alt="congrets image" id="congret" width="600" height="400">
+</div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

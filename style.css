@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Acme', sans-serif;
+}
+.container{
+    /* display: none; */
+    width: 100wv;
+    margin: auto;
+    position: relative;
+    font-family: 'Acme', sans-serif;
+}
+.images{
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    margin-top: 12px;
+    /* align-items: center; */
+    justify-content: center;
+    /* margin-left: 40px; */
+    padding: 5px;
+    border: 5px solid black;
+    background-color: rgb(40, 33, 33);
+}
+.images .image-item{
+    margin: 5px;
+    cursor: pointer;
+}
+.images .image-item:hover{
+    border: 5px solid yellow;
+    border-radius: 5px;
+}
+.form{
+    display: none;
+    position: absolute;
+    height: 47vh;
+    width: 40vw;
+    border: 5px solid green;
+    border-radius: 8px;
+    margin-left: 444px;
+    margin-top: 8px;
+    background-color: rgb(40, 33, 33);
+}
+.form form h3{
+    position: relative; 
+    margin-left: 160px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.form form .input-item{
+    margin-top: 10px;
+    height: 200px
+}
+.input-item input{
+    margin-top: 12px;
+    margin-left: 70px;
+    width: 400px;
+    height: 45px;
+    border: 2px solid black;
+}
+#submit{
+    background: green;
+    color: white;
+    width: 50%;
+    height: 30px;
+    margin-left: 110px;
+    margin-bottom: 2px;
+
+}
+.display{
+    position: relative;
+    color: green;
+    margin-top: 22px;
+    margin-left: 300px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.ludo{
+    display: none;
+    background: green;
+    height: 400px;
+}
+.dice{
+    margin-left: 40vw;
+    margin-top: 10px; 
+}
+.dice image{
+    border: 5px solid aqua;
+}
+.dice image:hover{
+    border: 4px solid yellow;
+}
+
+h2{
+    margin-left: 43vw;
+    margin-top: 5px; 
+    font-family: 'Acme', sans-serif;
+    text-shadow: 1px 1px white;
+}
+/* .btn{
+    margin-left: 45vw;
+    margin-top: 5px;
+}
+button{
+    padding: 10px;
+    background-color: #00b894;
+    color: white;
+    border: none;
+} */
+
+.try{
+    display: none;
+    margin-left: 43vw;
+    margin-top: 5px; 
+    font-family: 'Acme', sans-serif;
+    text-shadow: 2px 2px yellow;
+    font-size: 50px;
+    font-weight: 700;
+}
+.bad-luck{
+    display: none;
+    margin-left: 43vw;
+    margin-top: 5px; 
+    font-family: 'Acme', sans-serif;
+    text-shadow: 2px 2px yellow;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.coupon{
+    background-color: yellow;
+    width: 400px;
+    /* height: 80px; */
+    margin-left: 35vw;
+    margin-top: 5px; 
+    font-family: 'Acme', sans-serif;
+    text-shadow: 2px 2px yellow;
+    font-size: 50px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.final{
+    display: none;
+    background-color: aqua;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    text-shadow: 2px 2px yellow;
+    font-size: 50px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.final #congret{
+    margin-top: 10px;
+    margin-left: 2vw;
+}
